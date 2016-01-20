@@ -3,7 +3,10 @@ layout: page
 title:  "Focal Pointe Data Solutions"
 date:   2015-12-16 13:17:34
 categories: recentwork
+permalink: /work/work2.html
 thumb: /images/recent_fpdatasolutions.png
+tags: [Responsive Web Design, HTML, CSS, Jquery, Jekyll]
+description: A service technology company providing data management, analytics and business intelligence solutions for hospital pharmacies.
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
