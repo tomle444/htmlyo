@@ -3,7 +3,10 @@ layout: page
 title:  "GoZolt"
 date:   2015-12-16 13:17:34
 categories: recentwork
+permalink: /work/work1.html
 thumb: /images/recent_gozolt.png
+tags: [Responsive Web Design, HTML, CSS, Jquery, Magento, Wordpress]
+description: A startup company that has created the world's smallest, lightest laptop charger.
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

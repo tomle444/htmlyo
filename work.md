@@ -6,7 +6,7 @@ weight: 1
 body-class: cms cms-work
 ---
 
-These are the most prominent project htmlyo has been proud to be a part of. They show off different aspects of Front End Development ranging from design mockups to HTML/CSS design and development.
+These are the most recent projects HTMLYO has been proud to be a part of. They show off different aspects of Front End Development ranging from custom design mockups to HTML/CSS design and development.
 
 ~ Yo!
 
