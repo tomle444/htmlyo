@@ -3,7 +3,7 @@ layout: post
 title:  "Yo! &#60;HTMLYO/&#62; Launches"
 date:   2015-12-16 13:17:34
 categories: htmlyo
-body-class: blog
+body-class: cms blog
 summary: We have launched a small site for the Front End Developer community and anyone else who enjoys the World Wide Web in general.
 thumb: 
 resource: true

@@ -1,6 +1,6 @@
 $(function(){
 	//alert("!");
-	$(".recent-work").css("min-height", 640 );
+	$('.recent-work').css('min-height', 640 );
 	$('.menu-icon, .close').click(function(){
 		if($('.trigger').hasClass('active')){
 			$('.trigger, body').removeClass('active');
@@ -28,8 +28,40 @@ $(function(){
 		);
 	}
 
+
+	/**
+	** Mobile Testing
+	**/
+	var isMobile = {
+		Android: function() {
+		    return navigator.userAgent.match(/Android/i);
+		},
+		BlackBerry: function() {
+		    return navigator.userAgent.match(/BlackBerry/i);
+		},
+		iOS: function() {
+		    return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+		},
+		Opera: function() {
+		    return navigator.userAgent.match(/Opera Mini/i);
+		},
+		Windows: function() {
+		    return navigator.userAgent.match(/IEMobile/i);
+		},
+		any: function() {
+		    return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+		}
+	};
+
+	if( isMobile.any() ) {
+		$('body').addClass('touch');
+	} else {
+		$('body').addClass('no-touch');
+	};
 	
 });
+
+
 
 $( window ).load(function() {				
 	function setHeight(){

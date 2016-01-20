@@ -1,5 +1,6 @@
 ---
 layout: default
+body-class: cms
 ---
 <div class="post">
 
@@ -11,22 +12,5 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
-  <sidebar>
-    <div class="inner">
-      {% for cat in site.categories %}
-      
-      <ul>
-        {% for post in site.posts %}
-          {% if post.resource == true %}
-            {% for pc in post.categories %}
-              {% if pc == cat %}
-                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-              {% endif %}   <!-- cat-match-p -->
-            {% endfor %}  <!-- page-category -->
-          {% endif %}   <!-- resource-p -->
-        {% endfor %}  <!-- page -->
-      </ul>
-      {% endfor %}  <!-- cat -->
-    </div>
-  </sidebar>
+
 </div>
