@@ -18,6 +18,14 @@
 		}
 	}
 
+	body.work {
+		.page-content {
+			padding: 80px 0;
+			position: relative;
+		}
+			
+	}
+
 	// Work Detail
 	.work-container {
 		&:after {
