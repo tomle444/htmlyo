@@ -58,7 +58,23 @@ $(function(){
 	} else {
 		$('body').addClass('no-touch');
 	};
-	
+});
+
+$(document).bind('ready scroll', function() {
+    if ($(this).scrollTop() > 200) {
+        if (!$('.site-header').hasClass('stickynav')) {
+            $('.site-header').addClass('stickynav').css({
+            	top: '-80px'
+            }).stop().animate({
+            	top: 0
+            }, 500);
+
+        }
+    } else {
+
+            $('.site-header').removeClass('stickynav').removeAttr('style');
+        
+    }
 });
 
 
