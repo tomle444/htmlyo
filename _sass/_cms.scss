@@ -119,4 +119,16 @@
 				}
 			}
 		}
+		table {
+			tr {
+				th {
+					text-align: left;
+				}
+				th, td {
+					&.ie-col {
+						background-color: #f1f1dd;
+					}
+				}
+			}
+		}
 	}
