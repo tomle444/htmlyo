@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Jekyll is Nice, Let Me Count The Ways..."
-date:   2015-01-06 13:17:34
+date:   2016-01-06 13:17:34
 categories: jekyll
 body-class: cms blog
 summary: Jekyll is a nice little static site generator that is great for a number of purposes. If you are a Front End Developer who doesn't like dealing with a complicated backend system or if you are looking to create a small and compact website in a short amount of time, Jekyll might be a great solution for you.
