@@ -4,16 +4,23 @@
   {% include head.html %}
 
   <body class="{{ page.body-class }}">
+     <div class="main-container">
+        <div class="overlay"></div>
+          {% include navigation.html %}
+          {% include header.html %}
+          <div class="homepage-hero">  
+            {% include homepage-hero.html %}
+          </div>
+          <div class="page-content">
+            <div class="wrapper">
+              <div class="container">
+                {{ content }}
+              </div>
+            </div>
+          </div>
 
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+      {% include footer.html %}
     </div>
-
-    {% include footer.html %}
 
   </body>
 

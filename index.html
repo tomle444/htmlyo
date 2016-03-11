@@ -2,42 +2,19 @@
 layout: homepage
 body-class: homepage
 ---
-
-<div class="home">
-
-  <div class="recent-work-container">
-    {% for work in site.recentwork %}
-      <div class="recent-work">        
-        
-        <div class="recent-work-thumb">
-          <img src="{{work.thumb | prepend: site.baseurl }}" />         
-        </div>
-        <div class="recent-work-description">
-          <a class="work-link" href="{{ work.url | prepend: site.baseurl }}"> {{ work.title }}</a>
-          <p>{{ work.description }}</p> 
-          <ul class="tags">
-            {% for tag in work.tags %}
-            <li>{{ tag }}</li>
-            {% endfor %}
-          </ul>
-          <a class="read-more" href="{{ work.url | prepend: site.baseurl }}">View Project</a>      
-        </div>
-
-      </div>
-    {% endfor %}
-  </div>
-  <div class="recent-post-container">
+  
+  <div class="container recent-post-container">
     <h1 class="page-heading">Recent Posts</h1>
-    {% for post in site.posts reversed limit:2 %}
+    {% for post in site.posts limit:3 | sort_by: "post.date" %}
       <div class="recent-post">
         <div class="inner">  
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
           <p>{{ post.summary }}</p>
-          <a class="read-more" href="{{ post.url | prepend: site.baseurl }}">Read More</a>     
+          <a class="button read-more" href="{{ post.url | prepend: site.baseurl }}">Read More</a>     
         </div>
       </div>
     {% endfor %}
   </div>
 
-</div>
+

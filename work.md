@@ -3,6 +3,7 @@ layout: page
 title: Work
 permalink: /work/
 weight: 1
+enabled: 0
 body-class: cms cms-work
 ---
 

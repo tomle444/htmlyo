@@ -1,14 +1,14 @@
 # Site settings
 title: HTMLYO - Front End Development is Cool.
 name: htmlyo
-email: tomle444@gmail.com
+email: hello@tomle.me 
 description: > # this means to ignore newlines until "baseurl:"
   Front End Development using hand-coded HTML and CSS. We are based out of San Diego, California.
   This is a resposive website that was created using Jekyll and hosted on GitHub Pages. ~ Yo!
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.htmlyo.com" # the base hostname & protocol for your site
 twitter_username: tomle444	
-github_username:  tomle444
+github_username:  tomle444 
 
 # Build settings
 markdown: kramdown
